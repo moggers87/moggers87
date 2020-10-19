@@ -16,7 +16,7 @@ consider [hiring me](vlgi.space) if you like my work.
 - <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.6.0 released on 2020-06-17
 - <a href="https://pypi.org/project/exhibition/">exhibition</a> 0.1.1 released on 2020-04-09
 
-## [From moggers87.co.uk](https://moggers87.co.uk)
+## From [moggers87.co.uk](https://moggers87.co.uk)
 
 - (art) <a href="https://moggers87.co.uk/art/mistake">Mistake</a> posted on 2020-05-09
 - (food) <a href="https://moggers87.co.uk/food/nanaimo-bars">Nanaimo&nbsp;bars</a> posted on 2020-01-07
