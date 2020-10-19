@@ -38,6 +38,8 @@ BLOG_URLS = {
 README_TMPL = """
 # moggers87
 
+![README](https://github.com/moggers87/moggers87/workflows/Update%20README/badge.svg)
+
 Hey it's me.
 
 I write code for living. [Send me money](https://ko-fi.com/moggers87) or
