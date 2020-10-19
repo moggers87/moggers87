@@ -1,14 +1,12 @@
 
 # moggers87
 
-Hey it's me
+![README](https://github.com/moggers87/moggers87/workflows/Update%20README/badge.svg)
 
-## Elsewhere
+Hey it's me.
 
-- [Twitter](https://twitter.com/moggers87)
-- [Mastodon](https://mastodon.xyz/moggers87)
-- [Moggers87.co.uk](https://moggers87.co.uk)
-- [Very Little Gravitas Indeed Ltd](vlgi.space)
+I write code for living. [Send me money](https://ko-fi.com/moggers87) or
+consider [hiring me](vlgi.space) if you like my work.
 
 ## Latest releases
 
@@ -18,11 +16,16 @@ Hey it's me
 - <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.6.0 released on 2020-06-17
 - <a href="https://pypi.org/project/exhibition/">exhibition</a> 0.1.1 released on 2020-04-09
 
-## From moggers87.co.uk
+## [From moggers87.co.uk](https://moggers87.co.uk)
 
 - (art) <a href="https://moggers87.co.uk/art/mistake">Mistake</a> posted on 2020-05-09
 - (food) <a href="https://moggers87.co.uk/food/nanaimo-bars">Nanaimo&nbsp;bars</a> posted on 2020-01-07
 - (food) <a href="https://moggers87.co.uk/food/lentil-chickpea-chilli-soup">Red lentil, chickpea, and chilli&nbsp;soup</a> posted on 2020-01-07
 - (food) <a href="https://moggers87.co.uk/food/grog">Grog</a> posted on 2019-12-30
 - (food) <a href="https://moggers87.co.uk/food/sri-lankan-braised-roots-stew">Sri Lankan&nbsp;stew</a> posted on 2019-12-18
+
+## Elsewhere
+
+- [Twitter](https://twitter.com/moggers87)
+- [Mastodon.xyz](https://mastodon.xyz/moggers87)
 
