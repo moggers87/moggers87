@@ -50,7 +50,7 @@ consider [hiring me](vlgi.space) if you like my work.
 
 {latest_releases}
 
-## [From moggers87.co.uk](https://moggers87.co.uk)
+## From [moggers87.co.uk](https://moggers87.co.uk)
 
 {the_blog}
 
