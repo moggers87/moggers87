@@ -38,22 +38,23 @@ BLOG_URLS = {
 README_TMPL = """
 # moggers87
 
-Hey it's me
+Hey it's me.
 
-## Elsewhere
-
-- [Twitter](https://twitter.com/moggers87)
-- [Mastodon](https://mastodon.xyz/moggers87)
-- [Moggers87.co.uk](https://moggers87.co.uk)
-- [Very Little Gravitas Indeed Ltd](vlgi.space)
+I write code for living. [Send me money](https://ko-fi.com/moggers87) or
+consider [hiring me](vlgi.space) if you like my work.
 
 ## Latest releases
 
 {latest_releases}
 
-## From moggers87.co.uk
+## [From moggers87.co.uk](https://moggers87.co.uk)
 
 {the_blog}
+
+## Elsewhere
+
+- [Twitter](https://twitter.com/moggers87)
+- [Mastodon.xyz](https://mastodon.xyz/moggers87)
 
 """
 
