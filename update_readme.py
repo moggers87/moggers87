@@ -13,10 +13,10 @@ PYTHON_PROJECTS = [
     "django-sendfile2",
     "exhibition",
     "salmon-mail",
-    "city",
+    #"city",
     "inboxen",
-    "sorry",
-    "regent",
+    #"sorry",
+    #"regent",
     "django-csrf-session",
     "PyPump",
     "lazycat",
@@ -54,8 +54,8 @@ README_TMPL = """
 [Very Little Gravitas Indeed Ltd](vlgi.space)
 """
 
-PROJECT_TMPL = "- **{name}** {version} released on *{date}*"
-BLOG_TMPL = "- ({type}) **{title}** *{date}*"
+PROJECT_TMPL = """- **<a href="{url}">{name}</a>** {version} released on *{date}*"""
+BLOG_TMPL = """- ({type}) **<a href="{url}">{title}</a>** *{date}*"""
 
 
 def _fixup_tz(dt):
@@ -93,6 +93,9 @@ def get_npm_releases():
                 "name": data["name"],
                 "version": version,
                 "date": date,
+                # there doesn't seem to be a copy of this URL in the API. Am I
+                # doing something wrong?
+                "url": "https://www.npmjs.com/package/{}".format(data["name"]),
             }
 
 
@@ -106,18 +109,21 @@ def get_pypi_releases():
                 "name": data["info"]["name"],
                 "version": version,
                 "date": date,
+                "url": data["info"]["package_url"],
             }
 
 
 def generate_the_blog():
     posts = []
     for typ, url in BLOG_URLS.items():
-        for post in feedparser.parse(url)["entries"]:
+        feed = feedparser.parse(url)
+        for post in feed["entries"]:
             date = _fixup_tz(parse(post["published"]))
             posts.append({
                 "type": typ,
                 "title": post["title"],
                 "date": date,
+                "url": post["link"],
             })
 
     posts = sorted(posts, key=lambda x: x["date"], reverse=True)
