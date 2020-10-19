@@ -22,7 +22,7 @@ jobs:
 
       - name: Update README.md
         run: |
-          env/bin/python update-readme.py
+          python update-readme.py
 
       - name: Commit and push if README.md changed
         run: |
