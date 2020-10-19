@@ -38,6 +38,15 @@ BLOG_URLS = {
 README_TMPL = """
 # moggers87
 
+Hey it's me
+
+## Elsewhere
+
+- [Twitter](https://twitter.com/moggers87)
+- [Mastodon](https://mastodon.xyz/moggers87)
+- [Moggers87.co.uk](https://moggers87.co.uk)
+- [Very Little Gravitas Indeed Ltd](vlgi.space)
+
 ## Latest releases
 
 {latest_releases}
@@ -46,12 +55,6 @@ README_TMPL = """
 
 {the_blog}
 
-## Elsewhere
-
-[Twitter](https://twitter.com/moggers87)
-[Mastodon](https://mastodon.xyz/moggers87)
-[Moggers87.co.uk](https://moggers87.co.uk)
-[Very Little Gravitas Indeed Ltd](vlgi.space)
 """
 
 PROJECT_TMPL = """- **<a href="{url}">{name}</a>** {version} released on *{date}*"""
