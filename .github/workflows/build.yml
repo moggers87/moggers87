@@ -22,7 +22,7 @@ jobs:
 
       - name: Update README.md
         run: |
-          python update-readme.py
+          python update_readme.py
 
       - name: Commit and push if README.md changed
         run: |
