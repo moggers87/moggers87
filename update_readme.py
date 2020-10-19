@@ -7,19 +7,20 @@ import feedparser
 
 
 PYTHON_PROJECTS = [
-    "django-two-factor-auth",
-    "multiblock",
-    "lmtpd",
+    "PyPump",
+    "django-csrf-session",
+    "django-elevate",
     "django-sendfile2",
+    "django-two-factor-auth",
     "exhibition",
+    "inboxen",
+    "lazycat",
+    "lmtpd",
+    "multiblock",
     "salmon-mail",
     #"city",
-    "inboxen",
-    #"sorry",
     #"regent",
-    "django-csrf-session",
-    "PyPump",
-    "lazycat",
+    #"sorry",
 ]
 
 NPM_PROJECTS = [
