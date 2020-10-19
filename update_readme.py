@@ -79,7 +79,7 @@ def generate_latest_releases():
     releases.extend(get_pypi_releases())
     releases = sorted(releases, key=lambda x: x["date"], reverse=True)
 
-    for proj in releases[:10]:
+    for proj in releases[:5]:
         yield PROJECT_TMPL.format(**proj)
 
 
@@ -122,7 +122,7 @@ def generate_the_blog():
 
     posts = sorted(posts, key=lambda x: x["date"], reverse=True)
 
-    for pst in posts[:10]:
+    for pst in posts[:5]:
         yield BLOG_TMPL.format(**pst)
 
 
