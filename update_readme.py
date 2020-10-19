@@ -57,8 +57,8 @@ Hey it's me
 
 """
 
-PROJECT_TMPL = """- **<a href="{url}">{name}</a>** {version} released on *{date}*"""
-BLOG_TMPL = """- ({type}) **<a href="{url}">{title}</a>** *{date}*"""
+PROJECT_TMPL = """- <a href="{url}">{name}</a> {version} released on {date:%Y-%m-%d}"""
+BLOG_TMPL = """- ({type}) <a href="{url}">{title}</a> posted on {date:%Y-%m-%d}"""
 
 
 def _fixup_tz(dt):
