@@ -1,8 +1,11 @@
 from datetime import timezone
 import json
+import tempfile
 import urllib.request
 
 from dateutil.parser import parse
+from git import Repo
+from git.objects.util import from_timestamp
 import feedparser
 
 
@@ -13,22 +16,30 @@ PYTHON_PROJECTS = [
     "django-sendfile2",
     "django-two-factor-auth",
     "exhibition",
-    "inboxen",
     "lazycat",
     "lmtpd",
     "multiblock",
     "salmon-mail",
-    #"city",
-    #"regent",
-    #"sorry",
+    # "city",
+    # "inboxen",
+    # "regent",
+    # "sorry",
 ]
 
 NPM_PROJECTS = [
     "smallquery",
 ]
 
+GIT_REPOES = [
+    ["lazycat", "https://github.com/moggers87/lazycat"],
+    ["Inboxen", "https://github.com/Inboxen/Inboxen"],
+]
+
 PYPI_URL = "https://pypi.org/pypi/{project}/json"
 NPM_URL = "https://skimdb.npmjs.com/registry/{project}"
+GITHUB_URL = "https://api.github.com/repos/{project}/git/refs/tags"
+
+GITHUB_TAG_URL = "https://github.com/{project}/releases/tag/{tag}"
 
 BLOG_URLS = {
     "blog": "https://moggers87.co.uk/blog/atom.xml",
@@ -84,6 +95,7 @@ def generate_latest_releases():
     releases = []
     releases.extend(get_npm_releases())
     releases.extend(get_pypi_releases())
+    releases.extend(get_git_releases())
     releases = sorted(releases, key=lambda x: x["date"], reverse=True)
 
     for proj in releases[:5]:
@@ -118,6 +130,23 @@ def get_pypi_releases():
                 "date": date,
                 "url": data["info"]["package_url"],
             }
+
+
+def get_git_releases():
+    for project, address in GIT_REPOES:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            repo = Repo.clone_from(address, tmp_dir, bare=True)
+            for tag in repo.tags:
+                tag = tag.tag
+                if tag is None:
+                    continue
+                date = from_timestamp(tag.tagged_date, tag.tagger_tz_offset)
+                yield {
+                    "name": project,
+                    "version": tag.tag,
+                    "date": date,
+                    "url": address,
+                }
 
 
 def generate_the_blog():

@@ -10,11 +10,11 @@ consider [hiring me](vlgi.space) if you like my work.
 
 ## Latest releases
 
+- <a href="https://github.com/moggers87/lazycat">lazycat</a> 0.1.0 released on 2020-12-15
+- <a href="https://github.com/moggers87/lazycat">lazycat</a> haxe-0.0.1 released on 2020-11-29
 - <a href="https://pypi.org/project/django-elevate/">django-elevate</a> 2.0.0 released on 2020-10-25
 - <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.13 released on 2020-10-17
-- <a href="https://pypi.org/project/multiblock/">multiblock</a> 0.0.1 released on 2020-09-12
-- <a href="https://pypi.org/project/lmtpd/">lmtpd</a> 6.2.0 released on 2020-07-05
-- <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.6.0 released on 2020-06-17
+- <a href="https://github.com/Inboxen/Inboxen">Inboxen</a> deploy-2020-10-10T00-21-00 released on 2020-10-10
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
