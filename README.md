@@ -18,11 +18,11 @@ consider [hiring me](vlgi.space) if you like my work.
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
+- (blog) <a href="https://moggers87.co.uk/blog/lazycat">Lazycat</a> posted on 2021-01-12
 - (art) <a href="https://moggers87.co.uk/art/mistake">Mistake</a> posted on 2020-05-09
 - (food) <a href="https://moggers87.co.uk/food/nanaimo-bars">Nanaimo&nbsp;bars</a> posted on 2020-01-07
 - (food) <a href="https://moggers87.co.uk/food/lentil-chickpea-chilli-soup">Red lentil, chickpea, and chilli&nbsp;soup</a> posted on 2020-01-07
 - (food) <a href="https://moggers87.co.uk/food/grog">Grog</a> posted on 2019-12-30
-- (food) <a href="https://moggers87.co.uk/food/sri-lankan-braised-roots-stew">Sri Lankan&nbsp;stew</a> posted on 2019-12-18
 
 ## Elsewhere
 
