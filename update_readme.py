@@ -33,6 +33,7 @@ NPM_PROJECTS = [
 GIT_REPOES = [
     ["lazycat", "https://github.com/moggers87/lazycat"],
     ["Inboxen", "https://github.com/Inboxen/Inboxen"],
+    ["apricots", "https://github.com/moggers87/apricots"],
 ]
 
 PYPI_URL = "https://pypi.org/pypi/{project}/json"
