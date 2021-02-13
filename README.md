@@ -10,11 +10,11 @@ consider [hiring me](vlgi.space) if you like my work.
 
 ## Latest releases
 
+- <a href="https://github.com/moggers87/apricots">apricots</a> v0.2.7 released on 2021-02-13
 - <a href="https://github.com/moggers87/lazycat">lazycat</a> 1.0.1 released on 2021-01-11
 - <a href="https://github.com/moggers87/lazycat">lazycat</a> 1.0.0 released on 2021-01-09
 - <a href="https://github.com/moggers87/lazycat">lazycat</a> 0.1.0 released on 2020-12-15
 - <a href="https://github.com/moggers87/lazycat">lazycat</a> haxe-0.0.1 released on 2020-11-29
-- <a href="https://pypi.org/project/django-elevate/">django-elevate</a> 2.0.0 released on 2020-10-25
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
