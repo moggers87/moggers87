@@ -31,7 +31,7 @@ NPM_PROJECTS = [
 ]
 
 GIT_REPOES = [
-    ["lazycat", "https://github.com/moggers87/lazycat"],
+    ["lazycat", "https://github.com/moggers87-games/lazycat"],
     ["Inboxen", "https://github.com/Inboxen/Inboxen"],
     ["apricots", "https://github.com/moggers87/apricots"],
 ]
