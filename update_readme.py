@@ -1,5 +1,7 @@
 from datetime import timezone
 import json
+import logging
+import sys
 import tempfile
 import urllib.request
 
@@ -76,11 +78,33 @@ consider [hiring me](vlgi.space) if you like my work.
 PROJECT_TMPL = """- <a href="{url}">{name}</a> {version} released on {date:%Y-%m-%d}"""
 BLOG_TMPL = """- ({type}) <a href="{url}">{title}</a> posted on {date:%Y-%m-%d}"""
 
+RETRIES = 5
+
 
 def _fixup_tz(dt):
     if dt.tzinfo is None:
         return dt.replace(tzinfo=timezone.utc)
     return dt
+
+
+def retry(func):
+    def wrapper(*args, **kwargs):
+        err = None
+        for i in range(RETRIES):
+            try:
+                return func(*args, **kwargs)
+            except Exception as e:
+                err = e
+            time.sleep(2**i)
+        if err is not None:
+            logging.error("Function %s failed with args %s and kwargs %s", func, args, kwargs)
+            raise err from e
+    return wrapper
+
+
+retried_urlopen = retry(urllib.request.urlopen)
+retried_clone = retry(Repo.clone_from)
+retried_feed = retry(feedparser.parse)
 
 
 def generate_readme():
@@ -102,10 +126,9 @@ def generate_latest_releases():
     for proj in releases[:5]:
         yield PROJECT_TMPL.format(**proj)
 
-
 def get_npm_releases():
     for project in NPM_PROJECTS:
-        with urllib.request.urlopen(NPM_URL.format(project=project)) as url:
+        with retried_urlopen(NPM_URL.format(project=project)) as url:
             data = json.loads(url.read().decode())
             version = data["dist-tags"]["latest"]
             date = _fixup_tz(parse(data["time"][version]))
@@ -121,7 +144,7 @@ def get_npm_releases():
 
 def get_pypi_releases():
     for project in PYTHON_PROJECTS:
-        with urllib.request.urlopen(PYPI_URL.format(project=project)) as url:
+        with retried_urlopen(PYPI_URL.format(project=project)) as url:
             data = json.loads(url.read().decode())
             version = data["info"]["version"]
             date = _fixup_tz(parse(data["releases"][version][0]["upload_time"]))
@@ -136,7 +159,7 @@ def get_pypi_releases():
 def get_git_releases():
     for project, address in GIT_REPOES:
         with tempfile.TemporaryDirectory() as tmp_dir:
-            repo = Repo.clone_from(address, tmp_dir, bare=True)
+            repo = retried_clone(address, tmp_dir, bare=True)
             for tag in repo.tags:
                 tag = tag.tag
                 if tag is None:
@@ -153,7 +176,7 @@ def get_git_releases():
 def generate_the_blog():
     posts = []
     for typ, url in BLOG_URLS.items():
-        feed = feedparser.parse(url)
+        feed = retried_feed(url)
         for post in feed["entries"]:
             date = _fixup_tz(parse(post["published"]))
             posts.append({
