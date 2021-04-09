@@ -52,7 +52,7 @@ README_TMPL = """
 Hey it's me.
 
 I write code for living. [Send me money](https://ko-fi.com/moggers87) or
-consider [hiring me](vlgi.space) if you like my work.
+consider [hiring me](https://vlgi.space) if you like my work.
 
 ## Latest releases
 
