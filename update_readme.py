@@ -12,20 +12,14 @@ import feedparser
 
 
 PYTHON_PROJECTS = [
-    "PyPump",
-    "django-csrf-session",
     "django-elevate",
     "django-sendfile2",
     "django-two-factor-auth",
     "exhibition",
-    "lazycat",
     "lmtpd",
     "multiblock",
     "salmon-mail",
-    # "city",
     # "inboxen",
-    # "regent",
-    # "sorry",
 ]
 
 NPM_PROJECTS = [
