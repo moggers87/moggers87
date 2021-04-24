@@ -24,8 +24,3 @@ consider [hiring me](https://vlgi.space) if you like my work.
 - (food) <a href="https://moggers87.co.uk/food/lentil-chickpea-chilli-soup">Red lentil, chickpea, and chilli&nbsp;soup</a> posted on 2020-01-07
 - (food) <a href="https://moggers87.co.uk/food/grog">Grog</a> posted on 2019-12-30
 
-## Elsewhere
-
-- [Twitter](https://twitter.com/moggers87)
-- [Mastodon.xyz](https://mastodon.xyz/moggers87)
-
