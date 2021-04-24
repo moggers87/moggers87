@@ -62,11 +62,6 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 {the_blog}
 
-## Elsewhere
-
-- [Twitter](https://twitter.com/moggers87)
-- [Mastodon.xyz](https://mastodon.xyz/moggers87)
-
 """
 
 PROJECT_TMPL = """- <a href="{url}">{name}</a> {version} released on {date:%Y-%m-%d}"""
