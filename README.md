@@ -10,11 +10,11 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 ## Latest releases
 
+- <a href="https://github.com/Inboxen/Inboxen">Inboxen</a> deploy-2021-06-25T22-51-26 released on 2021-06-25
 - <a href="https://pypi.org/project/django-elevate/">django-elevate</a> 2.0.2 released on 2021-06-02
 - <a href="https://pypi.org/project/exhibition/">exhibition</a> 0.2.1 released on 2021-05-01
 - <a href="https://www.npmjs.com/package/smallquery">smallquery</a> 0.0.4 released on 2021-04-11
 - <a href="https://github.com/Inboxen/Inboxen">Inboxen</a> deploy-2021-04-05T20-51-52 released on 2021-04-05
-- <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.13.1 released on 2021-04-01
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
