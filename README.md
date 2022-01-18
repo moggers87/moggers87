@@ -10,11 +10,11 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 ## Latest releases
 
+- <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.6.1 released on 2022-01-18
 - <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.13.2 released on 2022-01-18
 - <a href="https://github.com/Inboxen/Inboxen">Inboxen</a> deploy-2021-12-02T19-43-58 released on 2021-12-02
 - <a href="https://github.com/Inboxen/Inboxen">Inboxen</a> deploy-2021-09-15T19-27-19 released on 2021-09-15
 - <a href="https://github.com/moggers87-games/lazycat">lazycat</a> 1.1.1 released on 2021-07-06
-- <a href="https://github.com/moggers87-games/lazycat">lazycat</a> 1.1.0 released on 2021-07-05
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
