@@ -18,9 +18,9 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 ## From [moggers87.co.uk](https://moggers87.co.uk)
 
+- (art) <a href="https://moggers87.co.uk/art/penguin">Penguin</a> posted on 2022-04-05
 - (art) <a href="https://moggers87.co.uk/art/ribbons">Ribbons</a> posted on 2021-10-07
 - (food) <a href="https://moggers87.co.uk/food/harissa-lentil-pot">Harissa lentil&nbsp;pot</a> posted on 2021-09-13
 - (food) <a href="https://moggers87.co.uk/food/chickpea-burgers">Chickpea&nbsp;burger</a> posted on 2021-09-13
 - (food) <a href="https://moggers87.co.uk/food/sweet-potato-wedges">Sweet potato&nbsp;wedges</a> posted on 2021-09-13
-- (blog) <a href="https://moggers87.co.uk/blog/python-syntax-surprises">Python Syntax&nbsp;Surprises</a> posted on 2021-07-08
 
