@@ -88,7 +88,7 @@ def retry(func):
             time.sleep(2**i)
         if err is not None:
             logging.error("Function %s failed with args %s and kwargs %s", func, args, kwargs)
-            raise err from e
+            raise Exception("Ran out of retries") from err
     return wrapper
 
 
