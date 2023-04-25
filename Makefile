@@ -19,7 +19,7 @@ README.md: $(GIT_PACKAGE)
 .PHONY: commit
 commit: README.md
 	git diff --quiet || (git add README.md && git commit -m "Update README")
-	echo git push
+	git push
 
 .PHONY: all
 all: commit
