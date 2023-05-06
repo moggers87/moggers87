@@ -10,8 +10,8 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 ## Latest releases
 
+- <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.15.2 released on 2023-05-06
 - <a href="https://www.npmjs.com/package/smallquery">smallquery</a> 0.0.5 released on 2023-04-21
-- <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.15.1 released on 2023-02-26
 - <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.7.0 released on 2022-08-08
 - <a href="https://pypi.org/project/django-elevate/">django-elevate</a> 2.0.3 released on 2022-07-28
 - <a href="https://pypi.org/project/exhibition/">exhibition</a> 0.2.3 released on 2022-03-30
