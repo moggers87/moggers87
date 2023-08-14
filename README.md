@@ -10,7 +10,7 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 ## Latest releases
 
-- <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.15.3 released on 2023-06-28
+- <a href="https://pypi.org/project/django-two-factor-auth/">django-two-factor-auth</a> 1.15.4 released on 2023-08-14
 - <a href="https://github.com/moggers87/apricots">apricots</a> v0.2.8 released on 2023-05-12
 - <a href="https://www.npmjs.com/package/smallquery">smallquery</a> 0.0.5 released on 2023-04-21
 - <a href="https://pypi.org/project/django-sendfile2/">django-sendfile2</a> 0.7.0 released on 2022-08-08
