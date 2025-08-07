@@ -17,6 +17,10 @@ free to email me.
 ## Latest releases
 
 <ul>
+<li><a href="https://www.npmjs.com/package/smallquery" title="Link to project page">smallquery</a>
+        <i>0.0.6</i> released on
+        2025/05/25
+    </li>
 <li><a href="https://pypi.org/project/django-sendfile2/" title="Link to project page">django-sendfile2</a>
         <i>0.7.2</i> released on
         2025/04/06
@@ -33,10 +37,6 @@ free to email me.
         <i>1.17.0</i> released on
         2024/08/12
     </li>
-<li><a href="https://pypi.org/project/salmon-mail/" title="Link to project page">salmon-mail</a>
-        <i>3.3.0</i> released on
-        2024/08/09
-    </li>
 
 </ul>
 
@@ -44,6 +44,8 @@ free to email me.
 
 <ul>
 
+<li>(blog) <a href="https://moggers.co.uk/blog/deobfuscate">Deobfuscate</a> posted on
+        2025/08/07</li>
 <li>(food) <a href="https://moggers.co.uk/food/peanut-stew">Peanut stew</a> posted on
         2024/11/30</li>
 <li>(art) <a href="https://moggers.co.uk/art/penguin">Penguin</a> posted on
@@ -51,8 +53,6 @@ free to email me.
 <li>(art) <a href="https://moggers.co.uk/art/ribbons">Ribbons</a> posted on
         2021/10/07</li>
 <li>(food) <a href="https://moggers.co.uk/food/harissa-lentil-pot">Harissa lentil pot</a> posted on
-        2021/09/13</li>
-<li>(food) <a href="https://moggers.co.uk/food/chickpea-burgers">Chickpea burger</a> posted on
         2021/09/13</li>
 
 </ul>
