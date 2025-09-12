@@ -17,6 +17,10 @@ free to email me.
 ## Latest releases
 
 <ul>
+<li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
+        <i>deploy-2025.9.8.17.10.39</i> released on
+        2025/09/08
+    </li>
 <li><a href="https://www.npmjs.com/package/smallquery" title="Link to project page">smallquery</a>
         <i>0.0.6</i> released on
         2025/05/25
@@ -28,10 +32,6 @@ free to email me.
 <li><a href="https://github.com/moggers87/apricots" title="Link to project page">apricots</a>
         <i>v0.2.9</i> released on
         2025/02/01
-    </li>
-<li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
-        <i>deploy-2024.9.24.10.23.11</i> released on
-        2024/09/24
     </li>
 <li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
         <i>1.17.0</i> released on
