@@ -17,6 +17,10 @@ free to email me.
 ## Latest releases
 
 <ul>
+<li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
+        <i>1.18.0</i> released on
+        2025/09/16
+    </li>
 <li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
         <i>deploy-2025.9.8.17.10.39</i> released on
         2025/09/08
@@ -32,10 +36,6 @@ free to email me.
 <li><a href="https://github.com/moggers87/apricots" title="Link to project page">apricots</a>
         <i>v0.2.9</i> released on
         2025/02/01
-    </li>
-<li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
-        <i>1.17.0</i> released on
-        2024/08/12
     </li>
 
 </ul>
