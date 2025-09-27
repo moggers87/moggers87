@@ -18,12 +18,12 @@ free to email me.
 
 <ul>
 <li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
-        <i>1.18.0</i> released on
-        2025/09/16
+        <i>1.18.1</i> released on
+        2025/09/27
     </li>
 <li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
-        <i>deploy-2025.9.8.17.10.39</i> released on
-        2025/09/08
+        <i>deploy-2025.9.17.16.34.49</i> released on
+        2025/09/17
     </li>
 <li><a href="https://www.npmjs.com/package/smallquery" title="Link to project page">smallquery</a>
         <i>0.0.6</i> released on
