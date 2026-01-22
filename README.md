@@ -17,13 +17,13 @@ free to email me.
 ## Latest releases
 
 <ul>
+<li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
+        <i>deploy-2026.1.22.1.52.46</i> released on
+        2026/01/22
+    </li>
 <li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
         <i>1.18.1</i> released on
         2025/09/27
-    </li>
-<li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
-        <i>deploy-2025.9.17.16.34.49</i> released on
-        2025/09/17
     </li>
 <li><a href="https://www.npmjs.com/package/smallquery" title="Link to project page">smallquery</a>
         <i>0.0.6</i> released on
@@ -44,6 +44,8 @@ free to email me.
 
 <ul>
 
+<li>(food) <a href="https://moggers.co.uk/food/red-lentil-bolognese">Red Lentil Bolognese</a> posted on
+        2025/10/29</li>
 <li>(blog) <a href="https://moggers.co.uk/blog/deobfuscate">Deobfuscate</a> posted on
         2025/08/07</li>
 <li>(food) <a href="https://moggers.co.uk/food/peanut-stew">Peanut stew</a> posted on
@@ -52,7 +54,5 @@ free to email me.
         2022/04/05</li>
 <li>(art) <a href="https://moggers.co.uk/art/ribbons">Ribbons</a> posted on
         2021/10/07</li>
-<li>(food) <a href="https://moggers.co.uk/food/harissa-lentil-pot">Harissa lentil pot</a> posted on
-        2021/09/13</li>
 
 </ul>
