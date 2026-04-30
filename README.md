@@ -18,8 +18,8 @@ free to email me.
 
 <ul>
 <li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
-        <i>deploy-2026.1.22.1.52.46</i> released on
-        2026/01/22
+        <i>deploy-2026.2.22.0.27.49</i> released on
+        2026/02/22
     </li>
 <li><a href="https://pypi.org/project/django-two-factor-auth/" title="Link to project page">django-two-factor-auth</a>
         <i>1.18.1</i> released on
@@ -44,6 +44,8 @@ free to email me.
 
 <ul>
 
+<li>(blog) <a href="https://moggers.co.uk/blog/iocaine-gotosocial-nginx">Iocaine + GotoSocial + Nginx</a> posted on
+        2026/04/30</li>
 <li>(food) <a href="https://moggers.co.uk/food/red-lentil-bolognese">Red Lentil Bolognese</a> posted on
         2025/10/29</li>
 <li>(blog) <a href="https://moggers.co.uk/blog/deobfuscate">Deobfuscate</a> posted on
@@ -52,7 +54,5 @@ free to email me.
         2024/11/30</li>
 <li>(art) <a href="https://moggers.co.uk/art/penguin">Penguin</a> posted on
         2022/04/05</li>
-<li>(art) <a href="https://moggers.co.uk/art/ribbons">Ribbons</a> posted on
-        2021/10/07</li>
 
 </ul>
