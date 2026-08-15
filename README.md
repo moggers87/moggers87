@@ -9,7 +9,7 @@ consider [hiring me](https://vlgi.space) if you like my work.
 
 You'll notice I'm less active on Github these days. You can check out most of
 my open source projects on [Codeberg](https://codeberg.org/moggers87) and
-<https://moggers87.co.uk/git>
+<https://git.m87.co.uk/>
 
 If there's a project of mine you were looking for and you can't find it feel
 free to email me.
