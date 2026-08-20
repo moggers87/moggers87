@@ -17,6 +17,10 @@ free to email me.
 ## Latest releases
 
 <ul>
+<li><a href="https://pypi.org/project/exhibition/" title="Link to project page">exhibition</a>
+        <i>0.2.4</i> released on
+        2026/08/20
+    </li>
 <li><a href="https://codeberg.org/Inboxen/Inboxen.git" title="Link to project page">Inboxen</a>
         <i>deploy-2026.2.22.0.27.49</i> released on
         2026/02/22
@@ -32,10 +36,6 @@ free to email me.
 <li><a href="https://pypi.org/project/django-sendfile2/" title="Link to project page">django-sendfile2</a>
         <i>0.7.2</i> released on
         2025/04/06
-    </li>
-<li><a href="https://github.com/moggers87/apricots" title="Link to project page">apricots</a>
-        <i>v0.2.9</i> released on
-        2025/02/01
     </li>
 
 </ul>
