@@ -44,6 +44,8 @@ free to email me.
 
 <ul>
 
+<li>(art) <a href="https://moggers.co.uk/art/lights">Lights</a> posted on
+        2026/08/30</li>
 <li>(blog) <a href="https://moggers.co.uk/blog/iocaine-gotosocial-nginx">Iocaine + GotoSocial + Nginx</a> posted on
         2026/04/30</li>
 <li>(food) <a href="https://moggers.co.uk/food/red-lentil-bolognese">Red Lentil Bolognese</a> posted on
@@ -52,7 +54,5 @@ free to email me.
         2025/08/07</li>
 <li>(food) <a href="https://moggers.co.uk/food/peanut-stew">Peanut stew</a> posted on
         2024/11/30</li>
-<li>(art) <a href="https://moggers.co.uk/art/penguin">Penguin</a> posted on
-        2022/04/05</li>
 
 </ul>
